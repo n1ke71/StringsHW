@@ -125,7 +125,7 @@
     
     for (NSString* word in sentences ) {
         
-        if(word)
+        if(![word isEqualToString:@""])
         {
         NSString* lowerCaseString = [word lowercaseString];
 
